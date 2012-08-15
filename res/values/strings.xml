@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">BudgetTrip</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_trip_list">MainTripList</string>
+    <string name="listoftrips">Saved Trips:</string>
+    <string name="itemname">Item Name</string>
+    <string name="daystoinclude">Days to include:</string>
+    <string name="distance">Distance</string>
+    <string name="mpg">MPG</string>
+	<string name="days">Days</string>
+	<string name="newtrip">New Trip</string>
+	<string name="dolars">$DOL.AR</string>
+	<string name="new_trip_description">Description</string>
+	<string name="new_trip_name">Trip Name</string>
+</resources>
