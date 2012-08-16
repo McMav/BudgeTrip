@@ -18,23 +18,21 @@ public final class R {
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
-        public static final int woldmap=0x7f020002;
+        public static final int save_page=0x7f020002;
+        public static final int woldmap=0x7f020003;
     }
     public static final class id {
-        public static final int button1=0x7f08000c;
-        public static final int descriptionRow=0x7f080007;
-        public static final int listView1=0x7f080001;
-        public static final int menu_settings=0x7f08000d;
-        public static final int newTripDescription=0x7f080009;
-        public static final int newTripName=0x7f080006;
-        public static final int new_trip_description=0x7f080008;
+        public static final int description_row=0x7f080006;
+        public static final int list_view=0x7f080001;
+        public static final int menu_settings=0x7f08000a;
+        public static final int new_trip=0x7f080002;
+        public static final int new_trip_description=0x7f080007;
         public static final int new_trip_name=0x7f080005;
-        public static final int newtrip=0x7f080002;
-        public static final int saveButton=0x7f080003;
-        public static final int total_trip_dollar_amnt=0x7f08000b;
-        public static final int tripNameRow=0x7f080004;
+        public static final int save_button=0x7f080003;
+        public static final int total_trip_dollar_amnt=0x7f080009;
         public static final int trip_list_title=0x7f080000;
-        public static final int trip_name=0x7f08000a;
+        public static final int trip_name=0x7f080008;
+        public static final int trip_name_row=0x7f080004;
     }
     public static final class layout {
         public static final int activity_main_trip_list=0x7f030000;

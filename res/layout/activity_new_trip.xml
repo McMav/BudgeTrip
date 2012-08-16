@@ -2,57 +2,55 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    
-    
-<!-- enter new name row -->
-<TableRow>
-
-    <ImageView
-        android:id="@+id/saveImageIcon"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:src="@drawable/savePage" />
-        
-        </TableRow>
-    
+
+    <!-- enter new name row -->
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/save_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/save_page" />
+    </TableRow>
 
     <TableRow
-        android:id="@+id/tripNameRow"
+        android:id="@+id/trip_name_row"
         android:layout_width="wrap_content"
-        android:layout_height="100dp" 
-        android:paddingTop="0dp"
-        android:paddingBottom="25dp">
-        
+        android:layout_height="100dp"
+        android:paddingBottom="25dp"
+        android:paddingTop="0dp" >
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-            <!-- New Trip Title -->
-        <TextView
-            android:id="@+id/new_trip_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/padding_large"
-            android:text="@string/new_trip_name"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-<!-- New Trip name imput -->
-        <EditText
 
-            android:id="@+id/newTripName"
-            android:inputType="text"
-            android:layout_width="262dp"
-            android:layout_height="wrap_content"
-            android:paddingLeft="20dp" />
+            <!-- New Trip Title -->
 
+            <TextView
+                android:id="@+id/new_trip_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_large"
+                android:text="@string/new_trip_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <!-- New Trip name imput -->
+
+            <EditText
+                android:id="@+id/new_trip_name"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:paddingLeft="20dp" />
         </LinearLayout>
-
     </TableRow>
-    
-<!-- START Descrpition ROW   --> 
+
+    <!-- START Descrpition ROW -->
+
     <TableRow
-        android:id="@+id/descriptionRow"
+        android:id="@+id/description_row"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -70,7 +68,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <EditText
-                android:id="@+id/newTripDescription"
+                android:id="@+id/new_trip_description"
                 android:layout_width="262dp"
                 android:layout_height="fill_parent"
                 android:inputType="textLongMessage"
@@ -80,5 +78,5 @@
             </EditText>
         </LinearLayout>
     </TableRow>
- 
+
 </TableLayout>

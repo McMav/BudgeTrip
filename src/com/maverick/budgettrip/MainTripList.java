@@ -9,18 +9,20 @@ import android.view.View.OnClickListener;
 
 public class MainTripList extends Activity implements OnClickListener {
 
+	private Button btnNewTrip;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_trip_list);
 
-		Button b = (Button) findViewById(R.id.newtrip);
-		 b.setOnClickListener(this);
+		btnNewTrip = (Button) findViewById(R.id.new_trip);
+		btnNewTrip.setOnClickListener(this);
 	}
 
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.newtrip:
+		case R.id.new_trip:
 			Intent newTripIntent = new Intent(this, NewTripActivity.class);
 			startActivity(newTripIntent);
 			break;
