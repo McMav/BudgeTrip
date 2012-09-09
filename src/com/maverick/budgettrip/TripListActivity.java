@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 
-public class MainTripList extends Activity implements OnClickListener {
+public class TripListActivity extends Activity implements OnClickListener {
 
 	private Button btnNewTrip;
 

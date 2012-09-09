@@ -27,16 +27,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <!-- New Trip Title -->
-
             <TextView
-                android:id="@+id/new_trip_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/padding_large"
-                android:text="@string/new_trip_name"
+                android:text="Name:"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
-            <!-- New Trip name imput -->
 
             <EditText
                 android:id="@+id/new_trip_name"
@@ -47,10 +43,7 @@
         </LinearLayout>
     </TableRow>
 
-    <!-- START Descrpition ROW -->
-
     <TableRow
-        android:id="@+id/description_row"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -60,11 +53,10 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/new_trip_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/padding_large"
-                android:text="@string/new_trip_description"
+                android:text="Description:"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <EditText
